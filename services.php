@@ -50,16 +50,18 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="#"><img src="img/logo.png" alt=""></a>
+                        <!-- <a href="#"><img src="img/logo.png" class="img-responsive" alt=""></a> -->
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <nav class="header__menu mobile-menu">
-                        <  <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li class="active"><a href="./services.php">Services</a></li>
-                            <li><a href="./about.php">About</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
+                <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="projects.php">Gallery</a></li>
+                            <li class="active"><a href="services.php">Services</a></li>
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="blog.php">Blog </a></li>                     
                         </ul>
                     </nav>
                 </div>
@@ -104,7 +106,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services__item">
                         <img src="img/services/services-1.png" alt="">
                         <h4>Interior Design</h4>
@@ -119,11 +121,11 @@
                         </ul>
                         <br>
                         <div class="team__btn">
-                        <center><a href="#" class="primary-btn normal-btn">Book Session</a></center>
+                        <center><a href="appointment.php?Service=Interior_Design" class="primary-btn normal-btn">Book Appointment</a></center>
                     </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services__item">
                         <img src="img/services/services-2.png" alt="">
                         <h4>Office Design</h4>
@@ -137,14 +139,14 @@
                         </ul>
                         <br>
                         <div class="team__btn">
-                        <center><a href="#" class="primary-btn normal-btn">Book Session</a></center>
+                        <center><a href="appointment.php?Service=Office_Designs" class="primary-btn normal-btn">Book Apppointment</a></center>
                     </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services__item">
                         <img src="img/services/services-3.png" alt="">
-                        <h4>Home Design</h4>
+                        <h4>Exterior Design</h4>
                         <p>Interdisciplinary architectural studio with cultural, residential and commercial projects
                         built worldwide.</p>
                         <ul>
@@ -155,25 +157,7 @@
                         </ul>
                         <br>
                         <div class="team__btn">
-                        <center><a href="#" class="primary-btn normal-btn">Book Session</a></center>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="services__item">
-                        <img src="img/services/services-4.png" alt="">
-                        <h4>Design drawing</h4>
-                        <p>Creating architectural and creative solutions to help people realize their vision and make
-                        them a reality.</p>
-                        <ul>
-                            <li>- Guidelines for building.</li>
-                            <li>- Thermal comfort.</li>
-                            <li>- Types of building services.</li>
-                            <li>- Types of heating system.</li>
-                        </ul>
-                        <br>
-                        <div class="team__btn">
-                        <center><a href="#" class="primary-btn normal-btn">Book Session</a></center>
+                        <center><a href="appointment.php?Service=Exterior_Design" class="primary-btn normal-btn">Book Appointment</a></center>
                     </div>
                     </div>
                 </div>
@@ -241,17 +225,17 @@
     <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
         <div class="container">
             <div class="footer__top">
-                <div class="row">
+            <div class="row">
                     <div class="col-lg-8 col-md-6">
                         <div class="footer__top__text">
-                            <h2>Ready To Work With Us?</h2>
+                            <h2>Sign Up For Our Newsletter here.</h2>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="footer__top__newslatter">
-                            <form action="#">
-                                <input type="text" placeholder="Enter your email...">
-                                <button type="submit"><i class="fa fa-send"></i></button>
+                            <form action="newsletter.php" method="post">
+                                <input type="text" name="email" placeholder="Enter your email...">
+                                <button type="submit" name="submit"><i class="fa fa-send"></i></button>
                             </form>
                         </div>
                     </div>

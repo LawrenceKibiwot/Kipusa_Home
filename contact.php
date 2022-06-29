@@ -7,11 +7,12 @@
     <meta name="keywords" content="Staging, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Staging | Template</title>
+    <title>Kipusa Homes | Contacts</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
@@ -38,7 +39,7 @@
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__widget">
             <span>Call us for any questions</span>
-            <h4>+01 123 456 789</h4>
+            <h4>+254 740 615 970</h4>
         </div>
     </div>
     <!-- Offcanvas Menu End -->
@@ -53,28 +54,21 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <nav class="header__menu mobile-menu">
+                <nav class="header__menu mobile-menu">
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./projects.html">Projects</a></li>
-                            <li><a href="./about.html">About</a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="dropdown">
-                                    <li><a href="./Project-details.html">Project Details</a></li>
-                                    <li><a href="./about.html">About</a></li>
-                                    <li><a href="./services.html">Services</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li class="active"><a href="./contact.html">Contact</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="projects.php">Gallery</a></li>
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="about.php">About</a></li>
+                            <li  class="active"><a href="contact.php">Contact</a></li>
+                            <li><a href="blog.php">Blog </a></li>                     
                         </ul>
                     </nav>
                 </div>
                 <div class="col-lg-3">
                     <div class="header__widget">
                         <span>Call us for any questions</span>
-                        <h4>+01 123 456 789</h4>
+                        <h4>+254 740 615 970</h4>
                     </div>
                 </div>
             </div>
@@ -93,8 +87,7 @@
                             <span>Information</span>
                             <h2>Contact Details</h2>
                         </div>
-                        <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict
-                        attention.</p>
+                       
                     </div>
                 </div>
             </div>
@@ -106,7 +99,7 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h5>Phone Number</h5>
-                            <span>+01 123 456 789</span>
+                            <span>+254 740 615 970</span>
                         </div>
                     </div>
                 </div>
@@ -117,7 +110,8 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h5>Email Address</h5>
-                            <span>info.colorlib@gmail.com</span>
+                            <span>Kipusahome@gmail.com
+</span>
                         </div>
                     </div>
                 </div>
@@ -128,48 +122,16 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h5>Office Location</h5>
-                            <span>7176 Blue Spring Lane, NY, US</span>
+                            <span>Heri Plaza First Floor, Shop No.F03
+Karen</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="map">
-                <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12087.069761554938!2d-74.2175599360452!3d40.767139456514954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c254b5958982c3%3A0xb6ab3931055a2612!2sEast%20Orange%2C%20NJ%2C%20USA!5e0!3m2!1sen!2sbd!4v1581710470843!5m2!1sen!2sbd"
-                height="460" style="border:0;" allowfullscreen=""></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7648827977782!2d36.71665386444983!3d-1.316664186030688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1b087c46dfef%3A0xaab65870b218d82a!2sHERI%20PLAZA!5e0!3m2!1sen!2ske!4v1656000993431!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="contact__form__text">
-                        <div class="section-title">
-                            <span>Form</span>
-                            <h2>Get in touch</h2>
-                        </div>
-                        <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict
-                        attention.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="contact__form">
-                        <form action="#">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" placeholder="Name">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" placeholder="Email">
-                                </div>
-                                <div class="col-lg-12">
-                                    <textarea placeholder="Message"></textarea>
-                                    <button type="submit" class="site-btn">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </section>
     <!-- Contact Section End -->
@@ -181,14 +143,14 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-6">
                         <div class="footer__top__text">
-                            <h2>Ready To Work With Us?</h2>
+                            <h2>Sign Up For Our Newsletter here.</h2>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="footer__top__newslatter">
-                            <form action="#">
-                                <input type="text" placeholder="Enter your email...">
-                                <button type="submit"><i class="fa fa-send"></i></button>
+                            <form action="newsletter.php" method="post">
+                                <input type="text" name="email" placeholder="Enter your email...">
+                                <button type="submit" name="submit"><i class="fa fa-send"></i></button>
                             </form>
                         </div>
                     </div>
@@ -200,16 +162,19 @@
                         <div class="footer__logo">
                             <a href="#"><img src="img/logo.png" alt=""></a>
                         </div>
-                        <p>7176 Blue Spring Lane <br />Santa Monica, CA 90403</p>
+                        <p>Heri Plaza First Floor, Shop No.F03
+
+                            Karen</p>
                         <ul>
-                            <li>Info.colorlib@gmail.com</li>
-                            <li>+84 123 456 789</li>
+                            <li>Kipusahome@gmail.com</li>
+                            <li>+254 740 615 970</li>
                         </ul>
                         <div class="footer__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://web.facebook.com/Kipusabeauty/?ref=page_internal"><i
+                                    class="fa fa-facebook"></i></a>
+                            <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                            <a href="https://www.instagram.com/kipusahome/"><i class="fa fa-instagram"></i></a>
+                            <!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -217,11 +182,11 @@
                     <div class="footer__widget">
                         <h6>Company</h6>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Our Works</a></li>
-                            <li><a href="#">Career</a></li>
-                            <li><a href="#">FAQs</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <!-- <li><a href="#">Career</a></li> -->
+                            <!-- <li><a href="#">FAQs</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -229,20 +194,25 @@
                     <div class="footer__widget">
                         <h6>Services</h6>
                         <ul>
-                            <li><a href="#">Architecture</a></li>
-                            <li><a href="#">Interior Design</a></li>
-                            <li><a href="#">Exterior Design</a></li>
-                            <li><a href="#">Planning</a></li>
+                            <!-- <li><a href="services.php">Architecture</a></li> -->
+                            <li><a href="services.php">Interior Design</a></li>
+                            <li><a href="services.php">Exterior Design</a></li>
+                            <li><a href="services.php">Office Design</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="footer__address">
                         <h6>Get In Touch</h6>
-                        <p>7176 Blue Spring Lane <br />Santa Monica, CA 90403</p>
+                        <p>Heri Plaza First Floor, Shop No.F03
+                            <br>
+                            Karen
+                        </p>
                         <ul>
-                            <li>Info.colorlib@gmail.com</li>
-                            <li>+84 123 456 789</li>
+                            <li>Kipusahome@gmail.com</li>
+                            <li>
+                                <h4>+254 740 615 970</h4>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -251,24 +221,23 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-7">
                         <div class="copyright__text">
-                            <p>Copyright © <script>
-                                document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
-                            aria-hidden="true"></i> by <a href="https://colorlib.com"
-                            target="_blank">Colorlib</a>
-                        </p>
+                            <p>Copyright ©
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | Verdant Technologies
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-5">
+                    <!-- <div class="col-lg-4 col-md-5">
                     <div class="copyright__widget">
                         <a href="#">Terms of use</a>
                         <a href="#">Privacy Policy</a>
                     </div>
+                </div> -->
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 <!-- Footer Section End -->
 
 <!-- Js Plugins -->
