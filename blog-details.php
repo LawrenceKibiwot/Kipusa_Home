@@ -10,8 +10,7 @@
     <title>Kipusa Home | Blog</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
 
@@ -54,14 +53,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                <nav class="header__menu mobile-menu">
+                    <nav class="header__menu mobile-menu">
                         <ul>
                             <li><a href="index.php">Home</a></li>
                             <li><a href="projects.php">Gallery</a></li>
                             <li><a href="services.php">Services</a></li>
                             <li><a href="about.php">About</a></li>
                             <li><a href="contact.php">Contact</a></li>
-                            <li class="active"><a href="blog.php">Blog </a></li>                     
+                            <li class="active"><a href="blog.php">Blog </a></li>
                         </ul>
                     </nav>
                 </div>
@@ -93,26 +92,26 @@
                             <img src="img/blog/details/blog-details.jpg" alt="">
                             <p>Forget Ebay and other forms of advertising for your property that costs you hard earned
                                 money. Properties have ready several locations around the world to take your free
-                            listings for any luxury property you have.</p>
+                                listings for any luxury property you have.</p>
                         </div>
                         <div class="blog__details__text">
                             <p>Each location web site is purpose built so every Search Engine will pick up new listings
                                 within minutes. This way your customers only have to type in keywords relating to their
                                 search for a luxury home and the Search Engine will show the Invest Asset web site
-                            applicable to their location they are looking for.</p>
+                                applicable to their location they are looking for.</p>
                             <p>Most real estate companies are way too busy with selling their client’s properties to put
                                 any effort forth to their web site. Hence, making it difficult for web surfers to find
-                            their listings.</p>
+                                their listings.</p>
                         </div>
                         <div class="blog__details__text">
                             <p>Now times have changed and we at Investment Assets Properties are thinking of the
                                 customer before the business. If you have a property in a location not listed at
                                 Investment Assets Properties. Don’t worry. A quick email to us will ensure your location
-                            is built to accommodate your listing.</p>
+                                is built to accommodate your listing.</p>
                             <p>Selling your luxury home, condominium or property should not be a painstaking event. It
                                 should be easy and stress free and it should be able to be advertised on a global scale
                                 for free. Investment Assets Properties can and will do this for you in a hassle free
-                            way.</p>
+                                way.</p>
                         </div>
                         <div class="blog__details__pic">
                             <div class="row">
@@ -128,29 +127,9 @@
                             </div>
                         </div>
                         <div class="blog__details__widget">
-                            
+
                         </div>
-                     
-                        <div class="blog__details__comment__form">
-                            <h4>Leave A Reply</h4>
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4">
-                                        <input type="text" placeholder="Name">
-                                    </div>
-                                    <div class="col-lg-4 col-md-4">
-                                        <input type="text" placeholder="Email Address">
-                                    </div>
-                                    <div class="col-lg-4 col-md-4">
-                                        <input type="text" placeholder="Phone Number">
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <textarea placeholder="Your Comment"></textarea>
-                                        <button type="submit" class="site-btn">Submit Now</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -193,7 +172,7 @@
                         </ul>
                         <div class="footer__social">
                             <a href="https://web.facebook.com/Kipusabeauty/?ref=page_internal"><i class="fa fa-facebook"></i></a>
-                            <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                            <a href="https://api.whatsapp.com/send?phone=254740615970"><img src="img/br.svg" height="18" width="18" alt=""></a>
                             <a href="https://www.instagram.com/kipusahome/"><i class="fa fa-instagram"></i></a>
                             <!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
                         </div>
@@ -216,7 +195,7 @@
                             <li><a href="services.php">Architecture</a></li>
                             <li><a href="services.php">Interior Design</a></li>
                             <li><a href="services.php">Exterior Design</a></li>
-                            <li><a href="services.php">Planning</a></li>
+                            <!-- <li><a href="services.php">Planning</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -250,15 +229,15 @@
             </div>
         </div>
     </footer>
-<!-- Footer Section End -->
+    <!-- Footer Section End -->
 
-<!-- Js Plugins -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/main.js"></script>
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

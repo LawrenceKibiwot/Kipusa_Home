@@ -170,7 +170,7 @@
                         <div class="footer__social">
                             <a href="https://web.facebook.com/Kipusabeauty/?ref=page_internal"><i
                                     class="fa fa-facebook"></i></a>
-                            <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                                    <a href="https://api.whatsapp.com/send?phone=254740615970"><img src="img/br.svg" height="18" width="18" alt=""></a>
                             <a href="https://www.instagram.com/kipusahome/"><i class="fa fa-instagram"></i></a>
                             <!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
                         </div>

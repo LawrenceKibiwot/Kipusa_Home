@@ -125,13 +125,34 @@ $service = $_REQUEST['Service'];
     <div class="row">
         <div class="col-lg-3 col-md-3">
            
-        <?php
+       
+
+        </div>
+        <div class="col-lg-9 col-md-9">
+            <div class="contact__form">
+                <form action="appointment.php" method="POST">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <input type="text" name="name" placeholder="Name">
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <input type="text" name="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <input type="text" name="email" placeholder="Email">
+                        </div>
+                        <div class="col-lg-12">
+                            <textarea name="desc" placeholder="Message"></textarea>
+                            <button type="submit" name="submit" class="site-btn">Send Message</button>
+                        </div>
+                    </div>
+                    <?php
             if (isset($_POST['submit'])) {
                 $name = $_POST['name'];
                 $email = $_POST['email'];
                 $desc = $_POST['desc'];
                 $phone = $_POST['phone'];
-                $amount = '1';
+                $amount = '10000';
                 $Account_no = 'Kipusa Home';
                 $insert = "INSERT INTO KH_Bookings(Name,Email,Phone,Description)values('$name','$email','$phone','$desc')";
                 mysqli_query($conn, $insert);
@@ -158,26 +179,6 @@ $service = $_REQUEST['Service'];
                 $msg_resp = json_decode($resp);
             }
             ?>
-
-        </div>
-        <div class="col-lg-9 col-md-9">
-            <div class="contact__form">
-                <form action="appointment.php" method="POST">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <input type="text" name="name" placeholder="Name">
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <input type="text" name="phone" placeholder="Phone Number">
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <input type="text" name="email" placeholder="Email">
-                        </div>
-                        <div class="col-lg-12">
-                            <textarea name="desc" placeholder="Message"></textarea>
-                            <button type="submit" name="submit" class="site-btn">Send Message</button>
-                        </div>
-                    </div>
                 </form>
             </div>
             <br>
@@ -276,8 +277,7 @@ $service = $_REQUEST['Service'];
                         </ul>
                         <div class="footer__social">
                             <a href="https://web.facebook.com/Kipusabeauty/?ref=page_internal"><i class="fa fa-facebook"></i></a>
-                            <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
-                            <a href="https://www.instagram.com/kipusahome/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=254740615970"><img src="img/br.svg" height="18" width="18" alt=""></a>                            <a href="https://www.instagram.com/kipusahome/"><i class="fa fa-instagram"></i></a>
                             <!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
                         </div>
                     </div>

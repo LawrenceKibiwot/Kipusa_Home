@@ -10,8 +10,7 @@
     <title>Kipusa Home | About</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
 
@@ -54,14 +53,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                <nav class="header__menu mobile-menu">
+                    <nav class="header__menu mobile-menu">
                         <ul>
                             <li><a href="index.php">Home</a></li>
                             <li><a href="projects.php">Gallery</a></li>
                             <li><a href="services.php">Services</a></li>
                             <li class="active"><a href="about.php">About</a></li>
                             <li><a href="./contact.php">Contact</a></li>
-                            <li><a href="./blog.html">Blog </a></li>                     
+                            <li><a href="./blog.php">Blog </a></li>
                         </ul>
                     </nav>
                 </div>
@@ -106,8 +105,8 @@
                             <h2>About Us</h2>
                         </div>
                         <div class="section-title">
-                       <a href="jobs.php"> <span>We are Hiring</span></a>
-                    </div>
+                            <a href="jobs.php"> <span>We are Hiring</span></a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8">
@@ -124,7 +123,7 @@
                                     <img src="img/services/services-5.png" alt="">
                                     <h4>Our Mission</h4>
                                     <p>As you might expect of a company that began as a high-end interiors contractor,
-                                    we pay strict attention. Anisotropic elements that randomly sample.</p>
+                                        we pay strict attention. Anisotropic elements that randomly sample.</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -133,7 +132,7 @@
                                     <h4>Our Vision</h4>
                                     <p>Our commitment to exceptional quality has never wavered. To day ranks as one of
                                         the most highly-regarded construction. Anisotropic elements that randomly
-                                    sample.</p>
+                                        sample.</p>
                                 </div>
                             </div>
                         </div>
@@ -270,9 +269,8 @@
                             <li>+254 740 615 970</li>
                         </ul>
                         <div class="footer__social">
-                            <a href="https://web.facebook.com/Kipusabeauty/?ref=page_internal"><i
-                                    class="fa fa-facebook"></i></a>
-                            <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                            <a href="https://web.facebook.com/Kipusabeauty/?ref=page_internal"><i class="fa fa-facebook"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=254740615970"><img src="img/br.svg" height="18" width="18" alt=""></a>-- <a href="#"><i class="fa fa-twitter"></i></a> -->
                             <a href="https://www.instagram.com/kipusahome/"><i class="fa fa-instagram"></i></a>
                             <!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
                         </div>
@@ -338,15 +336,15 @@
             </div>
         </div>
     </footer>
-<!-- Footer Section End -->
+    <!-- Footer Section End -->
 
-<!-- Js Plugins -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/main.js"></script>
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
